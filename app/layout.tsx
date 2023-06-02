@@ -35,6 +35,7 @@ export default function RootLayout({
         <meta name="version" content={buildConfig.commitId} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <script async src="https://mami.wuzhouboy.top/script.js" data-website-id="1cf0857d-ccec-4c73-91d1-7020d7bd45af"></script>
       </head>
       <body>{children}</body>
     </html>
